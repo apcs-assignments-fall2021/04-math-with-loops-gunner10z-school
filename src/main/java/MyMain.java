@@ -22,7 +22,7 @@ public class MyMain {
         int counter1=1;
 
         while ((Math.abs(Math.E-eValue))>0.0001){
-            //System.out.println("test");
+            //System.out.println("test");//
             double factorialValue=factorial(counter1);
             //System.out.println(factorialValue);
             eValue=eValue+(1/factorialValue);
@@ -37,8 +37,8 @@ public class MyMain {
     public static double babylonian(double x) {
         double bab_root=Math.random();
         while (Math.abs(Math.sqrt(x)-bab_root)>0.00001){
-            double new_bab=(bab_root + x/bab_root) / 2;
-            bab_root=new_bab;
+
+            bab_root=(bab_root + x/bab_root) / 2;
         }
         return bab_root;
     }
