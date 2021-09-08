@@ -24,7 +24,7 @@ public class MyMain {
         while ((Math.abs(Math.E-eValue))>0.0001){
             //System.out.println("test");//
             double factorialValue=factorial(counter1);
-            //System.out.println(factorialValue);
+            //System.out.println(factorialValue);//
             eValue=eValue+(1/factorialValue);
             //System.out.println(eValue);
             counter1++;
